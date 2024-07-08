@@ -13,6 +13,17 @@ body {
     padding: 0px;
 }
 
+.img .game {
+    max-width: 100%;
+    height: auto;
+  }
+  
+.h1 .game {
+    font-size: 4rem;
+    margin-top: 2rem;
+    color: #333;  
+}
+
 .sidebar {
     background-color: #222;
     width: 10vw;
