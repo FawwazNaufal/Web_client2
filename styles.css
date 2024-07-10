@@ -39,6 +39,56 @@ body {
     gap: 10px; 
 }
 
+@media only screen and (min-width: 1200px) {
+    .sidebar {
+         width: 12vw;
+     }
+    .sidebar.logo {
+         width: 60px;
+         height: 60px;
+     }
+    .sidebar.item {
+         width: 60px;
+         height: 60px;
+     }
+ }
+ 
+ /* Medium screens (tablets) */
+ @media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .sidebar {
+         width: 15vw;
+     }
+    .sidebar.logo {
+         width: 40px;
+         height: 40px;
+     }
+    .sidebar.item {
+         width: 40px;
+         height: 40px;
+     }
+ }
+ 
+ /* Small screens (mobiles) */
+ @media only screen and (max-width: 767px) {
+    .sidebar {
+         width: 20vw;
+         height: auto;
+         flex-direction: row;
+         justify-content: space-between;
+         align-items: center;
+     }
+    .sidebar.logo {
+         width: 30px;
+         height: 30px;
+         margin: 10px;
+     }
+    .sidebar.item {
+         width: 30px;
+         height: 30px;
+         margin: 10px;
+     }
+ }
+
 .sidebar i {
     font-size: 24px;
 }
